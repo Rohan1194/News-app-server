@@ -1,0 +1,22 @@
+{
+  "name": "Newsapp",
+  "version": "1.0.0",
+  "description": "News app",
+  "main": "app.js",
+  "scripts": {
+    "test": "nyc mocha || true"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  },
+  "author": "Rohan Garg",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0",
+    "supertest": "^3.0.0"
+  }
+}
